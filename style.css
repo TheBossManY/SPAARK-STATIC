@@ -1,0 +1,123 @@
+
+  
+  /* Body Styling */
+  body {
+    padding: 0;
+    margin: 0;
+    /* margin-top: 100px; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f5; /* Soft background color */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Canvas Styling */
+  canvas {
+    position: absolute;
+    
+  }
+  
+  /* Video Styling */
+  #video {
+    border-radius: 12px;
+    margin-top: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 4px solid #fff; /* Adds a clean border around the video */
+    background-color: #333; /* Adds a background in case video doesn't load */
+  }
+  
+  /* Details Section */
+  #details {
+    margin-top: 220px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Shadow for some depth */
+    margin-left: 20px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Heading Styling */
+  h3 {
+    font-size: 20px;
+    color: #2c3e50; /* Darker text for the heading */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Content Text Styling */
+  #details-content {
+    font-size: 16px;
+    color: #7f8c8d; /* Lighter text color */
+    line-height: 1.5;
+  }
+  
+  /* Adding a hover effect on the details section for some interactivity */
+  #details:hover {
+    background-color: rgba(255, 255, 255, 1); /* On hover, remove the transparency */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Animation for details content */
+  #details-content {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Fade In Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+  /* Vehicle Details Section */
+#vehicle-details-section {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#vehicle-details-section input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+}
+
+#vehicle-details-section button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#vehicle-details-section button:hover {
+  background-color: #2980b9;
+}
+
+#vehicle-details-content {
+  font-size: 16px;
+  color: #7f8c8d;
+  line-height: 1.5;
+}

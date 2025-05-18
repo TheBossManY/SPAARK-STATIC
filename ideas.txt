@@ -1,0 +1,41 @@
+we have not made just another face detection app but an entire fully functional well researched and tested web app with multi pages each having their own well developed functionality.
+We have not just been a team of developers who sat back and made the project because we had to submit, but we have created a real world solution, not just created but well thought about, brain stormed, tested, and found and fixed the loopholes to make it a fully fledged application ready to come to functionality. 
+
+For detection of face we are using the functionality provided by javascript's faceAPI to match the faces that come in front of the camera with our database that has the data of students.
+We have implemented the feature that there is not just face detection but a list of details that are associated with each student which also gets displayed for a higher use case of our software solution.
+
+Not just this but we are using 2 databases, one being the database that contains info of face and other details of a student and other being the database of the bbduexamform. We get to know from bbduexamform that weather the student has cleared the exam form application and is allowed to sit in the exam or not(for 2nd sessional bcz ofc for semester we have admit cards). This feature is for future purpose when we have made it as a attendance management too.
+
+
+
+----
+We initially used SSD_MobileNet which made the initial loading of the application very time taking. we then switched to using TinyFaceDetector which brought the initial loading time down to 10 seconds from 35 seconds without affecting any functionality that we have implemented here in our project!
+
+
+
+
+---------PPT START----------
+First we would like to put forward this point that we have created this project with our full dedication and focus from scratch to finish!
+We have done proper research, collaborative development, optimisation, testing, review from end users, real life testing!
+
+Face detection, UI/UX, Research and optimisation, Backend integration, Idea and implementation of vehicle verification.
+
+----------------------------
+
+research me hme pata chala ki vehicle ki issue hoti hai just like id cards, and also we should put day scholar or hosteler in this too!
+
+
+#### STARTING LINES####
+hm pehle problem btate hai fir apko btayege ki hmne solution kya bnaya hai or kya kaise kam kiya hai
+Problem! Problem bohot badi hai and bohot bada loophole hai ek ye na sirf hmare college me balki baki colleges me bhi.
+Problem hai ID Cards!!! ID Cards jis form me hm aaj use krte hai wo leke aate hai dhero flaws Malicious students/outsiders inn loopholes ka use krte hai, real students inke flaws se harm hote hai. Not to mention ID Cards aaj bhi bilkul waise hi hai jaisa 20 saal pehle hote the. 
+1. Achanak checking hone me hmare college ke adhe bache id card nhi show kr paate, baccho ko bhi bohot dikkat hoti hai or ye security me bohot bada loophole hai or iska fayeda malicious students aram se utha lete hai. Plus time waste in showing class group! (50% Students ke paas id card nhi hota hai fact backed by guard)
+
+2. Paper ID Cards get worn out, lost, misplaced ya proxy used!
+
+3. During fests, huge number of fake id cards are cerculated resulting in loss of authenticity of BBD EG and the passes to our fares losing all its value!
+
+So to cater to all of these problems We have created CampusGuard! 
+
+
+## STARTING DONE ##

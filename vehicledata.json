@@ -1,0 +1,20 @@
+[
+  {
+    "number": "UP32FZ1010",
+    "type": "2 Wheeler",
+    "name-of-vehicle": "Royal Enfield 350",
+    "Color": "Black",
+    "Owner Name": "Surya Pratap",
+    "Owner Phone": "93455129431",
+    "Owner Roll Number" : "234231212"
+  },
+  {
+    "number": "MH12AB1234",
+    "type": "4 Wheeler",
+    "name-of-vehicle": "Toyota Innova",
+    "Color": "White",
+    "Owner Name": "Rahul Kumar",
+    "Owner Phone": "9876543210",
+    "Owner Roll Number" : "234231214"
+  }
+]
