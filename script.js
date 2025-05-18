@@ -19,7 +19,7 @@ function startWebcam() {
 }
 
 async function getLabeledFaceDescriptions() {
-  const labels = ["John", "Jane"]; // Add your actual folder names here
+  const labels = ["Pragalbh", "Elon"]; // Add your actual folder names here
 
   return Promise.all(
     labels.map(async (label) => {
